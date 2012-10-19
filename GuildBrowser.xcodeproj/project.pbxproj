@@ -70,6 +70,9 @@
 		F4D171341630904900505ADA /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
 		F4D171351630904900505ADA /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2315E9B34900B3713E /* Item.m */; };
 		F4D171361630904900505ADA /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
+		F4D1713C1630C4D400505ADA /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = F4D1713A1630C4D400505ADA /* character.json */; };
+		F4D1713D1630C4D400505ADA /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = F4D1713B1630C4D400505ADA /* guild.json */; };
+		F4D171401630C59B00505ADA /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1713F1630C59B00505ADA /* CharacterTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,6 +180,10 @@
 		F4D1712B16308C2500505ADA /* GuildBrowserLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuildBrowserLogicTests-Prefix.pch"; sourceTree = "<group>"; };
 		F4D1713016308D7100505ADA /* WowUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowUtilsTests.h; sourceTree = "<group>"; };
 		F4D1713116308D7100505ADA /* WowUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowUtilsTests.m; sourceTree = "<group>"; };
+		F4D1713A1630C4D400505ADA /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
+		F4D1713B1630C4D400505ADA /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
+		F4D1713E1630C59B00505ADA /* CharacterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTests.h; sourceTree = "<group>"; };
+		F4D1713F1630C59B00505ADA /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				66E76FA71625165B00ACFA1A /* README.md */,
+				F4D171391630C4D400505ADA /* testdata */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
 				CB9FDC4515E9872D00B3713E /* GuildBrowser */,
@@ -404,6 +412,8 @@
 				F4D1712316308C2500505ADA /* Supporting Files */,
 				F4D1713016308D7100505ADA /* WowUtilsTests.h */,
 				F4D1713116308D7100505ADA /* WowUtilsTests.m */,
+				F4D1713E1630C59B00505ADA /* CharacterTests.h */,
+				F4D1713F1630C59B00505ADA /* CharacterTests.m */,
 			);
 			path = GuildBrowserLogicTests;
 			sourceTree = "<group>";
@@ -416,6 +426,15 @@
 				F4D1712B16308C2500505ADA /* GuildBrowserLogicTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4D171391630C4D400505ADA /* testdata */ = {
+			isa = PBXGroup;
+			children = (
+				F4D1713A1630C4D400505ADA /* character.json */,
+				F4D1713B1630C4D400505ADA /* guild.json */,
+			);
+			path = testdata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -548,6 +567,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D1712716308C2500505ADA /* InfoPlist.strings in Resources */,
+				F4D1713C1630C4D400505ADA /* character.json in Resources */,
+				F4D1713D1630C4D400505ADA /* guild.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +651,7 @@
 				F4D171351630904900505ADA /* Item.m in Sources */,
 				F4D171361630904900505ADA /* WoWUtils.m in Sources */,
 				F4D1713216308D7100505ADA /* WowUtilsTests.m in Sources */,
+				F4D171401630C59B00505ADA /* CharacterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
