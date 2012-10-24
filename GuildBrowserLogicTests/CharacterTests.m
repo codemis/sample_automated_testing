@@ -35,6 +35,6 @@
 -(void)testCreateCharacterFromDetailJsonProps {
     STAssertEqualObjects(_testGuy.thumbnail,
                          @"borean-tundra/171/40508075-avatar.jpg",
-                         @"thumbnail URL is wrong");    
+                         @"thumbnail URL is wrong");
 }
 @end
